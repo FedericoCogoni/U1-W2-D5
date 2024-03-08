@@ -1,1 +1,215 @@
-/* Your styles here */
+/*ISTRUZIONI LETTURA CSS
+-header:
+    class logoContainer
+    class navbar 
+-main: 
+    class bannerOrange
+    id bannerGreen
+    class bannerShop:
+        banner1Container(testo+link)
+        imgBox(card)
+     bigBox:
+           banner2Container
+           bannerText2+shopGaming
+           banner3Container
+           bannerText2+shopAudio
+-footer: 
+    footerNav
+    space
+    logoContainer
+    space
+
+        */
+p,
+h3,
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+html {
+  width: 100%;
+  background-color: #222f3f;
+}
+
+main {
+  padding: 1.75rem;
+  background-color: lightgray;
+}
+
+body {
+  width: 100%;
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #e9edee;
+}
+header .navbar {
+  padding: 0 1.75rem;
+  background-color: #364759;
+  color: #eee;
+}
+header img {
+  height: 2.3rem;
+  background-color: #222f3f;
+  padding: 0.6rem 1.75rem;
+}
+
+header ul li {
+  display: inline-block;
+  margin: 0 1rem 0 0;
+  padding: 0.4rem 0;
+  font-size: 14px;
+}
+header a {
+  color: #eee;
+  text-decoration: none;
+}
+header .logoContainer {
+  height: 3.5rem;
+  background-color: #222f3f;
+}
+a {
+  text-decoration: none;
+}
+.bannerOrange {
+  width: 100%;
+  height: 2em;
+  background-color: #f56600;
+  color: #eee;
+  text-align: center;
+  margin-bottom: 1.75rem;
+}
+.bannerOrange p {
+  padding: 0.5em;
+  font-weight: bold;
+}
+.bannerGreen {
+  display: block;
+  width: 100%;
+  height: 10em;
+  background-image: url(../images/bannerGreen.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #eee;
+  text-align: center;
+  margin-bottom: 1.75rem;
+  margin-top: 2em;
+}
+.bannerGreen h1 {
+  padding-top: 2em;
+  padding-bottom: 1.5em;
+  font-weight: bold;
+  font-size: 25px;
+}
+.bannerGreen p {
+  font-weight: bold;
+  font-size: 15px;
+}
+.banner1Container {
+  padding: 0 0 0.5em 0.5em;
+}
+
+.bannerShop {
+  width: 100%;
+  background-color: #ffffff;
+  padding: 1% 0;
+  margin-bottom: 1.75rem;
+}
+.bannerText1 {
+  display: inline-block;
+  font-weight: bold;
+}
+.shopNow {
+  display: inline-block;
+}
+.shopNow a {
+  color: #1e85ec;
+  font-weight: bold;
+}
+.imgBox img {
+  display: inline-block;
+  width: 22.5%;
+  height: 37em;
+  object-fit: cover; /*spudoratamente googlato "object-fit: cover;"*/
+  margin: 0 1%;
+  border-radius: 1.8rem;
+  box-shadow: 8px 10px 17px 4px rgba(0, 0, 0, 0.15);
+}
+.banner2Container {
+  width: 100%;
+  height: 30em;
+  background-image: url(../images/banner2\(1\).png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.banner3Container {
+  width: 100%;
+  height: 30em;
+  background-image: url(../images/banner2\(2\).png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.bannerText2 {
+  height: 50px;
+  display: inline-block;
+  padding-top: 0.2em;
+  padding-left: 41%;
+}
+.shopGaming {
+  display: inline-block;
+}
+.shopAudio {
+  display: inline-block;
+}
+.shopAudio a {
+  color: #1e85ec;
+  font-weight: bold;
+}
+.shopGaming a {
+  color: #1e85ec;
+  font-weight: bold;
+}
+.bannerText2 h3 {
+  display: inline;
+  color: #111;
+  font-size: 18px;
+  font-weight: 600;
+}
+footer {
+  background-color: #222f3f;
+  text-align: center;
+}
+
+footer .footerNav .space {
+  height: 30%;
+}
+
+footer .footerNav a {
+  height: 40%;
+  font-size: 14px;
+  font-weight: 700;
+  color: #eee;
+}
+
+footer .logoContainer {
+  height: 10rem;
+  background-color: #222f3f;
+}
+footer a {
+  text-decoration: underline;
+}
+
+.footerNav {
+  height: 3rem;
+  background-color: #364759;
+}
+
+footer .logoContainer .space {
+  height: 30%;
+}
+
+footer .logoContainer img {
+  height: 40%;
+  padding: 0.4rem 1.75rem;
+}
